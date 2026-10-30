@@ -1,0 +1,127 @@
+/* ===================================
+   style.css — Kedai Kopi Nusantara
+   =================================== */
+
+/* 1. Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1d2528;
+  background-color: #f1f3f5;
+}
+
+/* 2. Header */
+#header {
+  align-items: center;
+  gap: 10px;
+  padding: 20px 48px;
+  background-color: #0f3d3e;
+  border-bottom: 6px solid #f2b134;
+}
+
+.logo {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+/* 3. Link menu navigasi */
+.menu-link {
+  margin-left: 6px;
+  padding: 6px 14px;
+  color: #d5e4e2;
+  border-bottom: 3px solid transparent;
+}
+
+.menu-link:hover {
+  color: #ffffff;
+  border-bottom: 3px solid #f2b134;
+}
+
+/* 4. Section */
+.section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 44px 24px;
+}
+
+/* 5. Judul section */
+.judul {
+  margin: 0 0 16px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  color: #0f3d3e;
+}
+
+/* 6. Tombol */
+.tombol {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 12px 28px;
+  background-color: #f2b134;
+  color: #0f3d3e;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.tombol:hover {
+  background-color: #0f3d3e;
+  color: #ffffff;
+}
+
+/* 7. Kotak menu */
+.kotak {
+  margin-bottom: 16px;
+  padding: 18px 22px;
+  background-color: #ffffff;
+  border: 1px solid #d3dadd;
+  border-left: 6px solid #1f7a72;
+  border-radius: 4px;
+}
+
+.kotak h3 {
+  margin: 0 0 4px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  color: #1f7a72;
+}
+
+/* 8. Kotak spesial */
+.spesial {
+  background-color: #0f3d3e;
+  border-left: 6px solid #f2b134;
+  color: #d5e4e2;
+}
+
+/* 9. Tabel */
+.tabel {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.tabel th,
+.tabel td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #d3dadd;
+}
+
+.tabel th {
+  background-color: #1f7a72;
+  color: #ffffff;
+}
+
+/* 10. Footer */
+#footer {
+  padding: 8px 24px;
+  text-align: center;
+  background-color: #0f3d3e;
+  color: #d5e4e2;
+}
